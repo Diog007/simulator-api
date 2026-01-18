@@ -8,7 +8,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admin/traffic")
-@CrossOrigin(origins = "*")
 public class TrafficController {
     
     private final TrafficService service;

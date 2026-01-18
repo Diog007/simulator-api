@@ -9,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admin/mocks")
-@CrossOrigin(origins = "*")
 public class MockController {
     
     private final MockService service;
