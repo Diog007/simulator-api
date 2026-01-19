@@ -19,7 +19,8 @@ public class CorsConfig {
                         .allowedOrigins(
                             "https://mockflow.diogobluesec.tech", 
                             "https://diogobluesec.tech", 
-                            "https://app.diogobluesec.tech"
+                            "https://app.diogobluesec.tech",
+                                "http://localhost:4200"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
